@@ -1,0 +1,45 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe",
+        "email": "john.doe@example.com",
+        "phoneNo": "123-456-7890",
+        "website": "www.johndoe.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "janesmith",
+        "email": "jane.smith@example.com",
+        "phoneNo": "098-765-4321",
+        "website": "www.janesmith.com"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "username": "alicejohnson",
+        "email": "alice.johnson@example.com",
+        "phoneNo": "555-123-4567",
+        "website": "www.alicejohnson.com"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "username": "bobbrown",
+        "email": "bob.brown@example.com",
+        "phoneNo": "444-987-6543",
+        "website": "www.bobbrown.com"
+      },
+      {
+        "id": 5,
+        "name": "Charlie Davis",
+        "username": "charliedavis",
+        "email": "charlie.davis@example.com",
+        "phoneNo": "222-333-4444",
+        "website": "www.charliedavis.com"
+      }
+    ]
+  }
+  
