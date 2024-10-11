@@ -25,19 +25,21 @@ function Home() {
       <div >
         <h1 className='head'>User List</h1>
         <div>ADD</div>
+        
         <Link to="/create">Create</Link>
         {error && <p>{error}</p>}
         {data.map(user => (
-      <div key={user.id} className="user-item">
-      <span className="Name">Name: {user.name}</span> | 
-      <span className="username">Username: {user.username}</span> | 
-      <span className="email">Email: {user.email}</span> | 
-      <span className="phone">Phone: {user.phone}</span> | 
-      <span className="website">Website: {user.website}</span>
-      <Link to={`/read/${user.id}`}>Read</Link>
-      <button>Edit</button>
-      <button>Delete</button>
-  </div>
+          <div className='box'>   <div key={user.id} className="user-item">
+          <span className="Name">Name: {user.name}</span> | 
+          <span className="username">Username: {user.username}</span> | 
+          <span className="email">Email: {user.email}</span> | 
+          <span className="phone">Phone: {user.phone}</span> | 
+          <span className="website">Website: {user.website}</span>
+          <Link to={`/read/${user.id}`}>Read</Link>
+          <button>Edit</button>
+          <button>Delete</button>
+      </div></div>
+   
   
         ))}
       </div>
