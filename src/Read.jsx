@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-
+import { Link, useParams } from 'react-router-dom'
+import axios from 'axios';
 function Read() {
 
   const [data,setData]=useState([])
@@ -8,15 +8,20 @@ function Read() {
 const {id}=useParams();
 
   useEffect(()=>{
-    axios.read(`http://localhost:3000/users/`+id)
-    .then(res=>{res.data})
+    axios.get(`http://localhost:3000/users/`+id)
+    .then(res=>setData(res.data))
 
 
   },[])
 
   return (
     <div>
-      
+      <div>
+        <strong>Name:{data.name}</strong>
+        <strong>Email:{data.email}</strong>
+        <strong>Phone:{data.phoneNo}</strong>
+      </div>
+      <Link to='/'>Home</Link>
     </div>
   )
 }

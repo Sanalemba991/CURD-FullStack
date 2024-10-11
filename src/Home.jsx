@@ -30,7 +30,7 @@ function Home() {
         {data.map(user => (
           <div key={user.id}>
             ID: {user.id} | Name: {user.name} | Username: {user.username} | Email: {user.email} | Phone: {user.phone} | Website: {user.website}
-           <Link to={`/read/${user.id}`}></Link>
+           <Link to={`/read/${user.id}`}>Read</Link>
             <button>Edit</button>
             <button>Delete</button>
          
