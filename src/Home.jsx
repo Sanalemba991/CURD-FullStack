@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -23,10 +24,13 @@ function Home() {
     <>
       <div>
         <h1>User List</h1>
+        <div>ADD</div>
+        <Link to="/create">Create</Link>
         {error && <p>{error}</p>}
         {data.map(user => (
           <div key={user.id}>
             ID: {user.id} | Name: {user.name} | Username: {user.username} | Email: {user.email} | Phone: {user.phone} | Website: {user.website}
+            <button>Read</button>
             <button>Edit</button>
             <button>Delete</button>
          
