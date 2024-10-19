@@ -11,17 +11,17 @@
     .box {
         background-color: bisque;
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columns */
-        grid-template-rows: repeat(3, auto); /* 3 rows, height adjusts to content */
-        gap: 10px; /* Space between the boxes */
-        padding: 10px; /* Padding around the grid */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, auto); 
+        gap: 10px;
+        padding: 10px;
     }
     
     .user-item {
-        background-color: white; /* Background color for each user box */
-        border: 1px solid #ccc; /* Optional: add a border */
-        border-radius: 5px; /* Optional: rounded corners */
-        padding: 10px; /* Padding inside each box */
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+        background-color: white; 
+        border: 1px solid #ccc;
+        border-radius: 5px; 
+        padding: 10px; 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
     }
     
