@@ -9,19 +9,17 @@
     }
 
     .box {
-        background-color: bisque;
+        background-color: yellow;
         display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: repeat(3, auto); 
+       
         gap: 10px;
         padding: 10px;
     }
     
     .user-item {
-        background-color: white; 
+        background-color: blueviolet; 
         border: 1px solid #ccc;
         border-radius: 5px; 
         padding: 10px; 
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
     }
-    
