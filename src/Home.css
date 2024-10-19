@@ -1,4 +1,4 @@
-.bs {
+.container {
     padding: 20px;
     max-width: 1200px; /* Limit the maximum width */
     margin: 0 auto; /* Center the container */
@@ -21,11 +21,6 @@
   
   .user-item:hover {
     transform: scale(1.05); /* Scale up on hover */
-  }
-  
-  .user-name {
-    margin: 0 0 10px 0; /* Margin below the name */
-    font-size: 1.2em; /* Increase font size for name */
   }
   
   .button-group {
