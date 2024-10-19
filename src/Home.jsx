@@ -29,8 +29,7 @@ function Home() {
         <Link to="/create">Create</Link>
         {error && <p>{error}</p>}
         {data.map(user => (
-          <div className='bs'> 
-          <div className='  character-list'>   <div key={user.id} className="user-item">
+          <div className='box'>   <div key={user.id} className="user-item">
           <span className="Name">Name: {user.name}</span> | 
           <span className="username">Username: {user.username}</span> | 
           <span className="email">Email: {user.email}</span> | 
@@ -39,7 +38,6 @@ function Home() {
           <Link to={`/read/${user.id}`}>Read</Link>
           <button>Edit</button>
           <button>Delete</button>
-          </div>
       </div></div>
    
   
