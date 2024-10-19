@@ -4,10 +4,13 @@
     margin: 0 auto; /* Center the container */
   }
   
-  .character-list {
+  .box {
+
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px; /* Space between items */
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
   }
   
   .user-item {
