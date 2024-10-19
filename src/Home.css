@@ -1,16 +1,4 @@
-.head{
-
-    text-align: center;
-    color: gray;
-    margin-bottom: 90px;
-
-}
-
 .bs {
-    padding: 20px;
-  }
-
-  .bs {
     padding: 20px;
     max-width: 1200px; /* Limit the maximum width */
     margin: 0 auto; /* Center the container */
