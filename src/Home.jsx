@@ -30,7 +30,7 @@ function Home() {
         {error && <p>{error}</p>}
         {data.map(user => (
           <div className='bs'> 
-          <div className='box'>   <div key={user.id} className="user-item">
+          <div className='grid-container'>   <div key={user.id} className="user-item">
           <span className="Name">Name: {user.name}</span> | 
           <span className="username">Username: {user.username}</span> | 
           <span className="email">Email: {user.email}</span> | 
