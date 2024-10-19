@@ -10,15 +10,13 @@
 
     .box {
         background-color: yellow;
-        display: grid;
+
         display: grid;/*important*/
         grid-template-columns: repeat(3, 1fr); /*important*/
         margin-left: 40px;
         gap: 20px;
       
-       
-        gap: 10px;
-        padding: 10px;
+      
     }
     
     .user-item {
